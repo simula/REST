@@ -6,13 +6,13 @@ This repository contains various scripts and tools for analyzing a novel dataset
 
 
 ## Repository Structure
-- `algorithms`: The
-- `data_preprocessing`
-- `generate_reports.py`: Script for generating detailed reports based on the analysis results. It creates formatted reports in various formats such as PDF or HTML.
+- `algorithms`: The folder contains several sleep detection algorithms and non wear algorithms. Additional, it provides sleep statistic functions and a base class to load in the actigraphy files. 
+- `data_preprocessing`: Script for preprocessing and loading in of the original gt3x files. Addditional, a list of visualisations. 
+- `generate_reports.py`: Example script how to read in actigraphy files and generate sleep statistics, sleep annotations and plots. 
 
-- `technical_validation.py`: Script for performing technical validation of data or models. It ensures that the data or models meet specific technical standards and requirements.
+- `technical_validation.py`: Script for performing technical validation of data or models. The script reproduces the figures and results of the paper. 
 
-- `annonymisation.py`: Script for anonymizing sensitive data. It applies techniques to remove or obfuscate personally identifiable information (PII) to ensure data privacy and compliance.
+- `annonymisation.py`: Script for anonymizing sensitive data. It applies techniques to remove or obfuscate personally which we used for the annonymisation of the data. 
 
 - `transfer_learning_inference.py`: Script for performing inference using transfer learning models. It applies pre-trained models to new datasets for prediction or classification tasks.
 
