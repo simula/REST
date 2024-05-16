@@ -14,7 +14,7 @@ This repository contains various scripts and tools for analyzing a novel dataset
 
 - `annonymisation.py`: Script for anonymizing sensitive data. It applies techniques to remove or obfuscate personally which we used for the annonymisation of the data. 
 
-- `transfer_learning_inference.py`: Script for performing inference using transfer learning models. It applies pre-trained models to new datasets for prediction or classification tasks.
+- `transfer_learning_inference.py`: Script for performing inference using transfer learning models. It applies a LSTM model which has been trained on the MESA sleep study to REST for sleep prediction.
 
 ## Installation
 
